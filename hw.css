@@ -1,0 +1,18 @@
+img {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.item-img {
+    box-shadow: 1px grey;
+}
